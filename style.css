@@ -1,0 +1,148 @@
+body{
+font-family:Inter;
+margin:0;
+color:#333;
+background:#f7f7f7;
+}
+
+.logo{
+font-size:22px;
+font-weight:700;
+color:#111;
+letter-spacing:0.5px;
+}
+
+.container{
+max-width:1000px;
+margin:auto;
+padding:40px 20px;
+}
+
+header{
+background:white;
+border-bottom:3px solid #2563eb;
+}
+
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav a{
+margin-left:20px;
+text-decoration:none;
+color:#333;
+font-weight:500;
+}
+
+nav a:hover{
+color:#2563eb;
+}
+
+.section{
+padding:70px 0;
+border-top:1px solid #e5e5e5;
+}
+
+.section.light{
+background:#ffffff;
+}
+
+.hero{
+padding:70px 20px;
+}
+
+.hero-container{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:40px;
+max-width:900px;
+margin:auto;
+}
+
+.hero-image img{
+width:160px;
+height:160px;
+border-radius:50%;
+object-fit:cover;
+border:4px solid #000000;
+}
+
+.hero-content{
+max-width:550px;
+}
+
+.hero-content h1{
+margin:0;
+font-size:32px;
+}
+
+.hero-content h2{
+margin-top:5px;
+color:#2563eb;
+font-size:20px;
+}
+
+.hero-content p{
+margin-top:15px;
+line-height:1.6;
+}
+
+.resume-buttons{
+margin-top:20px;
+}
+
+.resume-buttons a{
+display:inline-block;
+margin-right:15px;
+padding:10px 20px;
+background:#2563eb;
+color:white;
+text-decoration:none;
+border-radius:6px;
+font-weight:500;
+}
+
+.resume-buttons a:hover{
+background:#1e40af;
+}
+
+.profile{
+width:160px;
+border-radius:70%;
+margin-bottom:50px;
+}
+
+.skills-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:20px;
+}
+
+.card{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.05);
+}
+
+.project{
+background:white;
+padding:20px;
+margin-bottom:25px;
+border-radius:10px;
+box-shadow:0 4px 12px rgba(0,0,0,0.05);
+}
+
+h2{
+margin-bottom:20px;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:white;
+border-top:1px solid #ddd;
+}
